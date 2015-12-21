@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MiniJSON
 {
@@ -64,6 +65,28 @@ namespace MiniJSON
 				return (bool)obj;
 
 			return false;
+		}
+		#endregion
+
+		#region Identifiers
+		public static bool IsJSONObject(object obj)
+		{
+			return obj is Dictionary<string, object>;
+		}
+
+		public static Dictionary<string, object> AsObject(object obj)
+		{
+			return obj as Dictionary<string, object>;
+		}
+
+		public static bool IsJSONArray(object obj)
+		{
+			return obj is List<object>;
+		}
+
+		public static List<object> AsArray(object obj)
+		{
+			return obj as List<object>;
 		}
 		#endregion
 	}
