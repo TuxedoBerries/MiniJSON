@@ -17,6 +17,17 @@ namespace MiniJSON
 			return 0;
 		}
 
+		public static short ConvertToUShort(object obj)
+		{
+			if (obj is long)
+				return (ushort)((long)obj);
+
+			if(obj is double)
+				return (ushort)((double)obj);
+
+			return 0;
+		}
+
 		public static int ConvertToInt(object obj)
 		{
 			if (obj is long)
