@@ -17,7 +17,7 @@ namespace MiniJSON
 			return 0;
 		}
 
-		public static short ConvertToUShort(object obj)
+		public static ushort ConvertToUShort(object obj)
 		{
 			if (obj is long)
 				return (ushort)((long)obj);
