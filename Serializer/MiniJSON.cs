@@ -1,8 +1,5 @@
 ﻿/*
  * Copyright (c) 2015 Juan Silva
- * 
- * Modified code for multiple files
- * 
  */
 
 /*
@@ -39,8 +36,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace MiniJSON {
-	
+namespace TuxedoBerries.MiniJSON.Serialization
+{
 	// Example usage:
 	//
 	//  using UnityEngine;

@@ -1,8 +1,5 @@
 ﻿/*
  * Copyright (c) 2015 Juan Silva
- * 
- * Modified code for multiple files
- * 
  */
 
 /*
@@ -38,7 +35,7 @@ using System.IO;
 using System.Text;
 using System.Collections.Generic;
 
-namespace MiniJSON
+namespace TuxedoBerries.MiniJSON.Serialization
 {
 	public sealed class Deserializer : IDisposable
 	{

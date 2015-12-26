@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace MiniJSON
+namespace TuxedoBerries.MiniJSON.Serialization
 {
 	public static class JSONHelper
 	{

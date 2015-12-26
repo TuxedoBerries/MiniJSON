@@ -1,8 +1,5 @@
 ﻿/*
  * Copyright (c) 2015 Juan Silva
- * 
- * Modified code for multiple files
- * 
  */
 
 /*
@@ -35,7 +32,7 @@
 	*/
 using System;
 
-namespace MiniJSON
+namespace TuxedoBerries.MiniJSON.Serialization
 {
 	enum TOKEN {
 		NONE,
